@@ -118,7 +118,31 @@ description: 사업의 문제점을 BMC로 위치를 특정(Root Cause Block)하
 
 ## 출력 구조
 
-### 0. 사업 프로파일 + 문제 유형 분류
+### 0. 먼저 보는 프레임워크: BMC란?
+
+BMC(Business Model Canvas)는 사업을 9개의 블록으로 나누어 보는 사업모델 진단 도구이다.
+
+이 스킬에서 BMC는 "사업 전체를 설명하는 도구"라기보다, **문제가 사업모델의 어느 위치에서 시작됐는지 찾는 진단 지도**로 사용한다.
+
+9개 블록은 다음과 같다.
+
+| 블록 | 핵심 질문 |
+|------|-----------|
+| CS (Customer Segments) | 누구를 위한 사업인가 |
+| VP (Value Proposition) | 어떤 가치를 제공하는가 |
+| CH (Channels) | 고객에게 어떻게 전달하는가 |
+| CR (Customer Relationships) | 고객과 어떤 관계를 맺는가 |
+| R$ (Revenue Streams) | 무엇으로 돈을 버는가 |
+| KR (Key Resources) | 필요한 핵심 자원은 무엇인가 |
+| KA (Key Activities) | 반드시 수행해야 하는 핵심 활동은 무엇인가 |
+| KP (Key Partnerships) | 누구와 협력해야 하는가 |
+| C$ (Cost Structure) | 어떤 비용이 발생하는가 |
+
+이후 분석에서는 증상 자체가 아니라, 문제가 처음 발생한 위치인 **Root Cause Block**을 찾아 McKinsey Issue Tree의 출발점으로 연결한다.
+
+---
+
+### 1. 사업 프로파일 + 문제 유형 분류
 
 > **[사업 유형]**: B2B / B2C / 플랫폼 / 내부 서비스  
 > **[문제 유형]**: Growth / Profitability / Operation / Organization / Strategy  
