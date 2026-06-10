@@ -1,19 +1,19 @@
 # AI 기획 스킬 모음 (Claude Code Skills)
 
 Claude Code에서 `/명령어` 형태로 실행하는 기획자용 AI 스킬 모음입니다.  
-기획자의 사고 단계(이해 → 작동원리 → 진단 → 설계 → 메시지)를 각각 구조화합니다.
+기획자의 사고 단계(이해 → 포지셔닝 → 비즈니스 성장·작동원리 → 비즈니스 진단 → 전략)를 각각 구조화합니다.
 
 ---
 
-## 기획 프레임워크 스킬 (5레이어)
+## 대상(기업)에 대한 이해 및 분석 스킬 (5레이어)
 
 | 레이어 | 스킬 | 핵심 질문 | 파일 |
 |--------|------|---------|------|
 | 01 이해 | `/concept-map` | 이게 뭐야? | [concept-map.md](./concept-map.md) |
-| 02 작동원리 | `/mental-model` | 왜 이렇게 움직여? | [mental-model.md](./mental-model.md) |
-| 03 진단 | `/business-diagnosis` | 어디가 문제야? | [business-diagnosis.md](./business-diagnosis.md) |
-| 04 설계 | `/strategy-canvas` | 뭘 해야 해? | [strategy-canvas.md](./strategy-canvas.md) |
-| 05 메시지 | `/brand-house` | 한 문장으로? | [brand-house.md](./brand-house.md) |
+| 02 포지셔닝 | `/brand-house` | 이 기업의 포지셔닝은? | [brand-house.md](./brand-house.md) |
+| 03 비즈니스 성장 및 작동원리 | `/mental-model` | 왜 이렇게 움직여? | [mental-model.md](./mental-model.md) |
+| 04 비즈니스 진단 | `/business-diagnosis` | 어디가 문제야? | [business-diagnosis.md](./business-diagnosis.md) |
+| 05 전략 | `/strategy-canvas` | 뭘 해야 해? | [strategy-canvas.md](./strategy-canvas.md) |
 
 ## 분석·리포트 스킬
 
@@ -31,17 +31,17 @@ Claude Code에서 `/명령어` 형태로 실행하는 기획자용 AI 스킬 모
 # 01 이해 — concept-map
 mkdir -p ~/.claude/skills/concept-map && curl -o ~/.claude/skills/concept-map/SKILL.md https://raw.githubusercontent.com/juree85-netizen/my-prompts/main/concept-map.md
 
-# 02 작동원리 — mental-model
+# 02 포지셔닝 — brand-house
+mkdir -p ~/.claude/skills/brand-house && curl -o ~/.claude/skills/brand-house/SKILL.md https://raw.githubusercontent.com/juree85-netizen/my-prompts/main/brand-house.md
+
+# 03 비즈니스 성장 및 작동원리 — mental-model
 mkdir -p ~/.claude/skills/mental-model && curl -o ~/.claude/skills/mental-model/SKILL.md https://raw.githubusercontent.com/juree85-netizen/my-prompts/main/mental-model.md
 
-# 03 진단 — business-diagnosis
+# 04 비즈니스 진단 — business-diagnosis
 mkdir -p ~/.claude/skills/business-diagnosis && curl -o ~/.claude/skills/business-diagnosis/SKILL.md https://raw.githubusercontent.com/juree85-netizen/my-prompts/main/business-diagnosis.md
 
-# 04 설계 — strategy-canvas
+# 05 전략 — strategy-canvas
 mkdir -p ~/.claude/skills/strategy-canvas && curl -o ~/.claude/skills/strategy-canvas/SKILL.md https://raw.githubusercontent.com/juree85-netizen/my-prompts/main/strategy-canvas.md
-
-# 05 메시지 — brand-house
-mkdir -p ~/.claude/skills/brand-house && curl -o ~/.claude/skills/brand-house/SKILL.md https://raw.githubusercontent.com/juree85-netizen/my-prompts/main/brand-house.md
 ```
 
 ### 전체 한 번에 설치
